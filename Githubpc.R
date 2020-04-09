@@ -6,6 +6,8 @@ linkPath = '//*[@id="thetable"]'
 library(htmltab)
 coronavirus = htmltab(doc = linkPage, which =linkPath, rm_nodata_cols = F) 
 
+huevadas
+
 ###Limpieza
 head(coronavirus)
 coronavirus = coronavirus[,c(2:5)]
